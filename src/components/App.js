@@ -2,6 +2,9 @@ import React from "react";
 
 import useFetch from "../utils/useFetch";
 
+import Search from "./Search";
+import Trans from "./Trans";
+
 const School = ({ school }) => (
   <>
     {school.name}
@@ -16,7 +19,10 @@ const App = () => {
 
   return (
     <>
-      <h1>NESSA Rankings</h1>
+      <h1>
+        <Trans>NESSA Rankings</Trans>
+      </h1>
+      <Search schools={schools} />
       {schools.map((school, index) => (
         <div key={school.id}>
           {index + 1}.
