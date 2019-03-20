@@ -1,3 +1,17 @@
+.search--label {
+  position: relative;
+}
+
+.search--icon {
+  left: -1em;
+  position: absolute;
+  top: 0;
+}
+
+.search--icon path {
+  fill: #72666c;
+}
+
 .search--input {
   border: 0;
   border-radius: 0;
@@ -7,7 +21,7 @@
   font-size: inherit;
   margin: 1em -2em;
   min-height: 3em;
-  padding: 0.5em 1em;
+  padding: 0.5em 1em 0.5em 3em;
   text-align: left;
   transition: background-color .3s, box-shadow .3s;
   width: calc(100% + 4em);
