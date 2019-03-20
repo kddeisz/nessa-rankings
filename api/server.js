@@ -19,4 +19,4 @@ app.get("/", (req, res) => {
   res.end(JSON.stringify(schools));
 });
 
-app.listen(3002, () => console.log("API listening on http://localhost:3002"));
+app.listen(3002, () => console.log("Listening at http://localhost:3001..."));

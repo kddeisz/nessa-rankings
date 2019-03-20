@@ -1,0 +1,37 @@
+.schools {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.schools th {
+  border-bottom: #848484 solid 1px;
+  color: #39393a;
+}
+
+.schools td {
+  border-top: #e4e4e4 solid 1px;
+}
+
+.schools th,
+.schools td {
+  padding: 0.5em 0;
+}
+
+.schools th:first-child {
+  text-align: left;
+}
+
+.schools th:last-child,
+.schools td:last-child {
+  text-align: right;
+}
+
+.schools th:first-child,
+.schools td:first-child {
+  width: 3em;
+}
+
+.schools td:first-child {
+  color: #760250;
+  font-weight: bold;
+}

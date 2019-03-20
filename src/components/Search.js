@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 
 import useField from "../utils/useField";
 
-import Trans from "./Trans";
+import { t } from "./Trans";
 
 const Search = ({ schools }) => {
   const [value, onChange] = useField();
@@ -20,8 +20,13 @@ const Search = ({ schools }) => {
   return (
     <>
       <label htmlFor="search">
-        <Trans>Search: </Trans>
-        <input type="text" value={value} onChange={onChange} />
+        <input
+          aria-label={t("Search")}
+          type="search"
+          value={value}
+          onChange={onChange}
+          placeholder={t("Search")}
+        />
       </label>
       {value.length > 0 && (
         <ul>

@@ -1,17 +1,11 @@
 import React from "react";
 
+import "../styles/app.css";
 import useFetch from "../utils/useFetch";
 
+import Schools from "./Schools";
 import Search from "./Search";
 import Trans from "./Trans";
-
-const School = ({ school }) => (
-  <>
-    {school.name}
-    {" "}
-    {school.rating}
-  </>
-);
 
 const App = () => {
   const { json } = useFetch("/");
@@ -19,17 +13,22 @@ const App = () => {
 
   return (
     <>
-      <h1>
+      <nav>
         <Trans>NESSA Rankings</Trans>
-      </h1>
-      <Search schools={schools} />
-      {schools.map((school, index) => (
-        <div key={school.id}>
-          {index + 1}.
-          {" "}
-          <School school={school} />
-        </div>
-      ))}
+      </nav>
+      <main>
+        <h1>
+          <Trans>Welcome</Trans>
+        </h1>
+        <p>
+          <Trans>
+            Easy to use and always up-to-date, this is your definitive source
+            for New England Scholastic Sailing Association rankings.
+          </Trans>
+        </p>
+        <Search schools={schools} />
+        <Schools schools={schools} />
+      </main>
     </>
   );
 };
