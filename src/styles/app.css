@@ -23,6 +23,10 @@ main {
   padding: 1em;
 }
 
+header {
+  padding: 0 1em;
+}
+
 h1 {
   color: #760250;
   margin: 0;

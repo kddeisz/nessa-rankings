@@ -17,15 +17,17 @@ const App = () => {
         <Trans>NESSA Rankings</Trans>
       </nav>
       <main>
-        <h1>
-          <Trans>Welcome</Trans>
-        </h1>
-        <p>
-          <Trans>
-            Easy to use and always up-to-date, this is your definitive source
-            for New England Scholastic Sailing Association rankings.
-          </Trans>
-        </p>
+        <header>
+          <h1>
+            <Trans>Welcome</Trans>
+          </h1>
+          <p>
+            <Trans>
+              Easy to use and always up-to-date, this is your definitive source
+              for New England Scholastic Sailing Association rankings.
+            </Trans>
+          </p>
+        </header>
         <Search schools={schools} />
         <Schools schools={schools} />
       </main>
