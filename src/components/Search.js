@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 
+import "../styles/search.css";
 import useField from "../utils/useField";
 
 import { t } from "./Trans";
@@ -21,6 +22,7 @@ const Search = ({ schools }) => {
     <>
       <label htmlFor="search">
         <input
+          className="search"
           aria-label={t("Search")}
           type="search"
           value={value}
