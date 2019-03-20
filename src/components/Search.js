@@ -22,7 +22,7 @@ const Search = ({ schools }) => {
     <>
       <label htmlFor="search">
         <input
-          className="search"
+          className="search--input"
           aria-label={t("Search")}
           type="search"
           value={value}
@@ -31,13 +31,15 @@ const Search = ({ schools }) => {
         />
       </label>
       {value.length > 0 && (
-        <ul>
-          {filtered.map(school => (
-            <li key={school.id}>
-              {school.name}
-            </li>
-          ))}
-        </ul>
+        <div className="search--results">
+          <ul>
+            {filtered.map(school => (
+              <li key={school.id}>
+                {school.name}
+              </li>
+            ))}
+          </ul>
+        </div>
       )}
     </>
   );
