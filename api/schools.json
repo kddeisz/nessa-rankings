@@ -1,0 +1,384 @@
+{
+  "schools": [
+    {
+      "id": 13, 
+      "name": "Tabor Academy", 
+      "rating": 1916
+    }, 
+    {
+      "id": 11, 
+      "name": "St George's School", 
+      "rating": 1824
+    }, 
+    {
+      "id": 45, 
+      "name": "Prout School", 
+      "rating": 1740
+    }, 
+    {
+      "id": 57, 
+      "name": "Greenwich Academy", 
+      "rating": 1736
+    }, 
+    {
+      "id": 59, 
+      "name": "Salisbury School", 
+      "rating": 1716
+    }, 
+    {
+      "id": 12, 
+      "name": "St. John Paul II High School (MA)", 
+      "rating": 1715
+    }, 
+    {
+      "id": 39, 
+      "name": "Hotchkiss School", 
+      "rating": 1714
+    }, 
+    {
+      "id": 36, 
+      "name": "Wellesley High School", 
+      "rating": 1712
+    }, 
+    {
+      "id": 22, 
+      "name": "Milton Academy", 
+      "rating": 1708
+    }, 
+    {
+      "id": 6, 
+      "name": "Portland High School", 
+      "rating": 1701
+    }, 
+    {
+      "id": 54, 
+      "name": "Daniel Hand HS", 
+      "rating": 1687
+    }, 
+    {
+      "id": 16, 
+      "name": "Nantucket High School", 
+      "rating": 1686
+    }, 
+    {
+      "id": 60, 
+      "name": "Staples High School", 
+      "rating": 1639
+    }, 
+    {
+      "id": 8, 
+      "name": "Falmouth High School", 
+      "rating": 1635
+    }, 
+    {
+      "id": 68, 
+      "name": "Notre Dame Academy", 
+      "rating": 1633
+    }, 
+    {
+      "id": 51, 
+      "name": "Portsmouth High School (NH)", 
+      "rating": 1630
+    }, 
+    {
+      "id": 69, 
+      "name": "East Boston High School", 
+      "rating": 1615
+    }, 
+    {
+      "id": 76, 
+      "name": "Middletown High School", 
+      "rating": 1609
+    }, 
+    {
+      "id": 75, 
+      "name": "Branford High School", 
+      "rating": 1604
+    }, 
+    {
+      "id": 23, 
+      "name": "Duxbury High School", 
+      "rating": 1588
+    }, 
+    {
+      "id": 43, 
+      "name": "Boothbay Regional High School", 
+      "rating": 1584
+    }, 
+    {
+      "id": 26, 
+      "name": "East Greenwich High School", 
+      "rating": 1580
+    }, 
+    {
+      "id": 48, 
+      "name": "Mt. Desert Island HS", 
+      "rating": 1579
+    }, 
+    {
+      "id": 53, 
+      "name": "Greenwich High School", 
+      "rating": 1572
+    }, 
+    {
+      "id": 21, 
+      "name": "Boston College High School", 
+      "rating": 1561
+    }, 
+    {
+      "id": 9, 
+      "name": "Falmouth HS (ME)", 
+      "rating": 1559
+    }, 
+    {
+      "id": 18, 
+      "name": "Sandwich High School", 
+      "rating": 1559
+    }, 
+    {
+      "id": 1, 
+      "name": "Nauset Regional High School", 
+      "rating": 1544
+    }, 
+    {
+      "id": 15, 
+      "name": "Dartmouth High School", 
+      "rating": 1541
+    }, 
+    {
+      "id": 67, 
+      "name": "Brookline High", 
+      "rating": 1536
+    }, 
+    {
+      "id": 55, 
+      "name": "Brunswick School", 
+      "rating": 1535
+    }, 
+    {
+      "id": 63, 
+      "name": "Winchester High School", 
+      "rating": 1518
+    }, 
+    {
+      "id": 72, 
+      "name": "Swampscott HS", 
+      "rating": 1513
+    }, 
+    {
+      "id": 70, 
+      "name": "Winthrop High School", 
+      "rating": 1507
+    }, 
+    {
+      "id": 38, 
+      "name": "St John's Prep", 
+      "rating": 1498
+    }, 
+    {
+      "id": 32, 
+      "name": "BB&N - Buckingham Browne and Nichols", 
+      "rating": 1495
+    }, 
+    {
+      "id": 49, 
+      "name": "Greely High School", 
+      "rating": 1485
+    }, 
+    {
+      "id": 34, 
+      "name": "Dover Sherborn RHS", 
+      "rating": 1482
+    }, 
+    {
+      "id": 71, 
+      "name": "Pingree School", 
+      "rating": 1482
+    }, 
+    {
+      "id": 61, 
+      "name": "George Stevens Academy", 
+      "rating": 1480
+    }, 
+    {
+      "id": 27, 
+      "name": "North Kingstown High School", 
+      "rating": 1479
+    }, 
+    {
+      "id": 73, 
+      "name": "Xavier High School", 
+      "rating": 1474
+    }, 
+    {
+      "id": 50, 
+      "name": "Cheverus High School", 
+      "rating": 1473
+    }, 
+    {
+      "id": 52, 
+      "name": "Fairfield Ludlow High School", 
+      "rating": 1472
+    }, 
+    {
+      "id": 37, 
+      "name": "Marblehead High School", 
+      "rating": 1471
+    }, 
+    {
+      "id": 5, 
+      "name": "Yarmouth High School", 
+      "rating": 1466
+    }, 
+    {
+      "id": 20, 
+      "name": "Sturgis Charter School", 
+      "rating": 1449
+    }, 
+    {
+      "id": 10, 
+      "name": "Moses Brown School", 
+      "rating": 1448
+    }, 
+    {
+      "id": 2, 
+      "name": "Barnstable HS", 
+      "rating": 1437
+    }, 
+    {
+      "id": 58, 
+      "name": "Darien High School", 
+      "rating": 1427
+    }, 
+    {
+      "id": 14, 
+      "name": "Portsmouth Abbey School", 
+      "rating": 1423
+    }, 
+    {
+      "id": 66, 
+      "name": "Boston Latin High School", 
+      "rating": 1420
+    }, 
+    {
+      "id": 74, 
+      "name": "Sound School", 
+      "rating": 1414
+    }, 
+    {
+      "id": 65, 
+      "name": "Wayland High School", 
+      "rating": 1408
+    }, 
+    {
+      "id": 7, 
+      "name": "Islesboro Central School", 
+      "rating": 1391
+    }, 
+    {
+      "id": 30, 
+      "name": "Sharon High School", 
+      "rating": 1389
+    }, 
+    {
+      "id": 47, 
+      "name": "Hingham High School", 
+      "rating": 1380
+    }, 
+    {
+      "id": 25, 
+      "name": "Bishop Stang High School", 
+      "rating": 1354
+    }, 
+    {
+      "id": 46, 
+      "name": "Rocky Hill School", 
+      "rating": 1354
+    }, 
+    {
+      "id": 3, 
+      "name": "Marthas Vineyard RHS", 
+      "rating": 1347
+    }, 
+    {
+      "id": 35, 
+      "name": "Cape Cod Academy", 
+      "rating": 1328
+    }, 
+    {
+      "id": 40, 
+      "name": "Choate Rosemary Hall", 
+      "rating": 1305
+    }, 
+    {
+      "id": 24, 
+      "name": "Barrington High School", 
+      "rating": 1304
+    }, 
+    {
+      "id": 31, 
+      "name": "Dennis-Yarmouth HS", 
+      "rating": 1299
+    }, 
+    {
+      "id": 44, 
+      "name": "Fairfield Prep", 
+      "rating": 1295
+    }, 
+    {
+      "id": 42, 
+      "name": "Williams School", 
+      "rating": 1280
+    }, 
+    {
+      "id": 28, 
+      "name": "Portsmouth High School (RI)", 
+      "rating": 1272
+    }, 
+    {
+      "id": 56, 
+      "name": "Greens Farms Academy", 
+      "rating": 1268
+    }, 
+    {
+      "id": 33, 
+      "name": "Rogers High School", 
+      "rating": 1263
+    }, 
+    {
+      "id": 29, 
+      "name": "Belmont Hill School", 
+      "rating": 1252
+    }, 
+    {
+      "id": 41, 
+      "name": "Concord Academy", 
+      "rating": 1242
+    }, 
+    {
+      "id": 62, 
+      "name": "Lincoln Sudbury Regional High School", 
+      "rating": 1241
+    }, 
+    {
+      "id": 19, 
+      "name": "Monomoy Regional High School", 
+      "rating": 1228
+    }, 
+    {
+      "id": 4, 
+      "name": "Camden Hills RHS", 
+      "rating": 1224
+    }, 
+    {
+      "id": 17, 
+      "name": "Old Rochester Regional High School", 
+      "rating": 1198
+    }, 
+    {
+      "id": 64, 
+      "name": "Manchester/Essex Regional High School", 
+      "rating": 1196
+    }
+  ]
+}
