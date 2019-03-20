@@ -14,7 +14,7 @@ const School = ({ school }) => (
 );
 
 const App = () => {
-  const { error, fetching, json } = useFetch("/");
+  const { json } = useFetch("/");
   const { schools = [] } = json;
 
   return (

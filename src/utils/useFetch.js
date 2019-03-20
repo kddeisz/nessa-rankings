@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import doFetch from "./doFetch";
 
 const useFetch = path => {
-  let cancelled = false;
   const [state, setState] = useState({
     error: null,
     fetching: true,
@@ -11,6 +10,7 @@ const useFetch = path => {
 
   useEffect(
     () => {
+      let cancelled = false;
       setState({ error: null, fetching: true, json: {} });
 
       doFetch(path)

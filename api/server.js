@@ -1,3 +1,5 @@
+/* eslint-disable no-console, import/no-extraneous-dependencies */
+
 const express = require("express");
 const schools = require("./schools");
 
