@@ -2,16 +2,6 @@
   position: relative;
 }
 
-.search--icon {
-  left: -1em;
-  position: absolute;
-  top: 0;
-}
-
-.search--icon path {
-  fill: #72666c;
-}
-
 .search--input {
   border: 0;
   border-radius: 0;
@@ -33,6 +23,18 @@
   outline: none;
 }
 
+.search--input--icon {
+  height: 1.2em;
+  left: -1em;
+  position: absolute;
+  top: 0;
+  width: 1.2em;
+}
+
+.search--input--icon path {
+  fill: #72666c;
+}
+
 .search--results {
   margin-bottom: 1em;
   max-height: 10em;
@@ -48,4 +50,11 @@
 .search--results li {
   border-bottom: #e4e4e4 solid 1px;
   padding: 0.5em 0;
+}
+
+.search--result--icon {
+  height: 1em;
+  margin-right: 1em;
+  vertical-align: text-top;
+  width: 1em;
 }

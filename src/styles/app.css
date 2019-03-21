@@ -20,6 +20,18 @@ nav {
   padding: 0.5em 1em;
 }
 
+.nav--icon {
+  float: right;
+  height: 1em;
+  margin-top: 0.25em;
+  vertical-align: middle;
+  width: 1em;
+}
+
+.nav--icon path {
+  fill: white;
+}
+
 main {
   padding: 1em 2em;
 }

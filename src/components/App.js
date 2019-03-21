@@ -3,6 +3,7 @@ import React from "react";
 import "../styles/app.css";
 import useFetch from "../utils/useFetch";
 
+import { NavIcon } from "./Icon";
 import Schools from "./Schools";
 import Search from "./Search";
 import Trans from "./Trans";
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <>
       <nav>
+        <NavIcon />
         <Trans>NESSA Rankings</Trans>
       </nav>
       <main>
