@@ -4,6 +4,10 @@
   width: 100%;
 }
 
+.schools tbody tr {
+  cursor: pointer;
+}
+
 .schools th {
   border-bottom: #848484 solid 1px;
   color: #39393a;

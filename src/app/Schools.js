@@ -1,22 +1,32 @@
 import React from "react";
 
+import useAriaClick from "../utils/useAriaClick";
 import "../styles/schools.css";
 
+import { useRouter } from "./Router";
 import Trans from "./Trans";
 
-const School = ({ ranking, school }) => (
-  <tr>
-    <td>
-      {ranking}.
-    </td>
-    <td>
-      {school.name}
-    </td>
-    <td>
-      {school.rating}
-    </td>
-  </tr>
-);
+const School = ({ ranking, school }) => {
+  const { onPathChange } = useRouter();
+  const ariaClick = useAriaClick(
+    () => onPathChange(`/schools/${school.id}`),
+    [onPathChange, school]
+  );
+
+  return (
+    <tr {...ariaClick}>
+      <td>
+        {ranking}.
+      </td>
+      <td>
+        {school.name}
+      </td>
+      <td>
+        {school.rating}
+      </td>
+    </tr>
+  );
+};
 
 const Schools = ({ schools }) => (
   <table className="schools">
