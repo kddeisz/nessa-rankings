@@ -1,7 +1,7 @@
 import React from "react";
 
-import useAriaClick from "../utils/useAriaClick";
 import "../styles/schools.css";
+import useAriaClick from "../utils/useAriaClick";
 
 import { useRouter } from "./Router";
 import Trans from "./Trans";

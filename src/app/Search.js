@@ -3,20 +3,15 @@ import React, { useMemo } from "react";
 import "../styles/search.css";
 import useField from "../utils/useField";
 
-import { t } from "./Trans";
 import { SearchInputIcon, SearchResultIcon } from "./Icon";
+import { Link } from "./Router";
+import { t } from "./Trans";
 
-const SearchResults = ({ schools }) => (
-  <div className="search--results">
-    <ul>
-      {schools.map(school => (
-        <li key={school.id}>
-          <SearchResultIcon />
-          {school.name}
-        </li>
-      ))}
-    </ul>
-  </div>
+const SearchResult = ({ school }) => (
+  <Link to={`/schools/${school.id}`}>
+    <SearchResultIcon />
+    {school.name}
+  </Link>
 );
 
 const Search = ({ schools }) => {
@@ -45,7 +40,13 @@ const Search = ({ schools }) => {
           placeholder={t("Search")}
         />
       </label>
-      {value.length > 0 && <SearchResults schools={filtered} />}
+      {value.length > 0 && (
+        <div className="search--results">
+          {filtered.map(school => (
+            <SearchResult key={school.id} school={school} />
+          ))}
+        </div>
+      )}
     </>
   );
 };

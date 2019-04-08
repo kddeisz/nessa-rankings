@@ -41,15 +41,12 @@
   overflow-y: auto;
 }
 
-.search--results ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-
-.search--results li {
+.search--results a {
   border-bottom: #e4e4e4 solid 1px;
+  color: #333;
+  display: block;
   padding: 0.5em 0;
+  text-decoration: none;
 }
 
 .search--result--icon {
